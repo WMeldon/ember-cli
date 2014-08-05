@@ -1,27 +1,27 @@
-/*jshint strict:false */
-/* globals test, expect, equal, visit, andThen */
+// /*jshint strict:false */
+// /* globals test, expect, equal, visit, andThen */
 
-import Ember from 'ember';
-import startApp    from '../helpers/start-app';
+// import Ember from 'ember';
+// import startApp    from '../helpers/start-app';
 
-var App;
+// var App;
 
-module('default-development - Integration', {
-  setup: function() {
-    App = startApp();
-  },
-  teardown: function() {
-    Ember.run(App, 'destroy');
-  }
-});
+// module('default-development - Integration', {
+//   setup: function() {
+//     App = startApp();
+//   },
+//   teardown: function() {
+//     Ember.run(App, 'destroy');
+//   }
+// });
 
 
-test('the application boots properly', function() {
-  expect(1);
+// test('the application boots properly', function() {
+//   expect(1);
 
-  visit('/');
+//   visit('/');
 
-  andThen(function() {
-    equal(Ember.$('#title').text(), 'Welcome to Ember.js');
-  });
-});
+//   andThen(function() {
+//     equal(Ember.$('#title').text(), 'Welcome to Ember.js');
+//   });
+// });
